@@ -35,11 +35,11 @@ end)]]--
 
 RegisterCommand("ems", function(source, args, rawCommand)
      TriggerClientEvent('bobs_ems:revive', source)
-end, true)
+end)
 
 RegisterCommand("bandage", function(source, args, rawCommand)
     TriggerClientEvent('bobs_ems:heal', source)
-end, true)
+end)
 
 RegisterServerEvent('bobs_ems:takemoney')
 AddEventHandler('bobs_ems:takemoney', function ()
